@@ -6,8 +6,8 @@ on:
       - dev
 env:
   BUILD_HOST: ci.uffs.cc
-  BUILD_WEB_DIRECTORY: /home/ccuffsci/ci.uffs.cc/inscricoes-prograd.app.uffs.cc
-  BUILD_WEB_URL: https://ci.uffs.cc/inscricoes-prograd.app.uffs.cc
+  BUILD_WEB_DIRECTORY: /home/ccuffsci/ci.uffs.cc/ccgirls-inscricoes-prograd
+  BUILD_WEB_URL: https://ci.uffs.cc/ccgirls-inscricoes-prograd
 jobs:
   build-deploy-audit:
     name: Build, deploy and audit
